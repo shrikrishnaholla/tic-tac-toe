@@ -1,0 +1,19 @@
+{
+  "name": "bootcamp-js",
+  "version": "0.0.1",
+  "description": "Socket.io Tic tac Toe",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node app.js"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "socket.io"
+  ],
+  "author": "Shrikrishna Holla",
+  "license": "Apache",
+  "dependencies": {
+    "express": "^4.6.1",
+    "socket.io": "^1.0.6"
+  }
+}

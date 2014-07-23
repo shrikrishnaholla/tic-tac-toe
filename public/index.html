@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body> 
+  <h3>Share this link to play with your friend</h3>
+  <div>Player <span id="turn" player="0">1</span>'s turn</div>
+  <div class="warning"></div>
+  <div class="row">
+    <div class="block border-style-1" id="ttt-block" ttt-row="0" ttt-col="0" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block border-style-1" id="ttt-block" ttt-row="0" ttt-col="1" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block border-style-2" id="ttt-block" ttt-row="0" ttt-col="2" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="block border-style-1" id="ttt-block" ttt-row="1" ttt-col="0" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block border-style-1" id="ttt-block" ttt-row="1" ttt-col="1" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block border-style-2" id="ttt-block" ttt-row="1" ttt-col="2" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="block border-style-3" id="ttt-block" ttt-row="2" ttt-col="0" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block border-style-3" id="ttt-block" ttt-row="2" ttt-col="1" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+    <div class="block" ttt-row="2" id="ttt-block" ttt-col="2" drawn=false>
+      <canvas width="50" height="50"/>
+    </div>
+  </div>
+  <div class="result"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
